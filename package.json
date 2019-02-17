@@ -1,56 +1,56 @@
 {
-	"name": "tracker-app",
-	"version": "0.1.0",
-	"private": true,
-	"dependencies": {
-		"react": "^16.8.2",
-		"react-dom": "^16.8.2",
-		"react-scripts": "2.1.5"
-	},
-	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build && d2-manifest package.json build/manifest.webapp",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject",
-		"format": "pretty-quick"
-	},
-	"eslintConfig": {
-		"extends": "react-app"
-	},
-	"browserslist": [
-		">0.2%",
-		"not dead",
-		"not ie <= 11",
-		"not op_mini all"
-	],
-	"devDependencies": {
-		"@dhis2/cli-style": "^2.0.1",
-		"d2-manifest": "^1.0.0",
-		"husky": "^1.3.1",
-		"prettier": "^1.16.4",
-		"pretty-quick": "^1.10.0"
-	},
-	"husky": {
-		"hooks": {
-			"commit-msg": "d2-style commit check",
-			"pre-commit": "pretty-quick --staged"
-		}
-	},
-	"manifest.webapp": {
-		"name": "tracker-app",
-		"icons": {
-			"48": "icon.png"
-		},
-		"developer": {
-			"name": "Barnabas Makonda",
-			"email": "barnabasmakonda@hisptanzania.org"
-		},
-		"activities": {
-			"dhis": {
-				"href": "../../"
-			}
-		},
-		"launch_url": "index.html",
-		"default_locale": "en"
-	}
+    "name": "tracker-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "react": "^16.8.2",
+        "react-dom": "^16.8.2",
+        "react-scripts": "2.1.5"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build && d2-manifest package.json build/manifest.webapp",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "format": "pretty-quick"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ],
+    "devDependencies": {
+        "@dhis2/cli-style": "^2.0.1",
+        "d2-manifest": "^1.0.0",
+        "husky": "^1.3.1",
+        "prettier": "^1.16.4",
+        "pretty-quick": "^1.10.0"
+    },
+    "husky": {
+        "hooks": {
+            "commit-msg": "d2-style commit check",
+            "pre-commit": "pretty-quick --staged"
+        }
+    },
+    "manifest.webapp": {
+        "name": "tracker-app",
+        "icons": {
+            "48": "icon.png"
+        },
+        "developer": {
+            "name": "Barnabas Makonda",
+            "email": "barnabasmakonda@hisptanzania.org"
+        },
+        "activities": {
+            "dhis": {
+                "href": "../../"
+            }
+        },
+        "launch_url": "index.html",
+        "default_locale": "en"
+    }
 }
