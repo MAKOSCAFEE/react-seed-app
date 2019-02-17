@@ -1,0 +1,22 @@
+{
+    "launch_path": "index.html",
+    "default_locale": "en",
+    "activities": {
+        "dhis": {
+            "href": "../../"
+        }
+    },
+    "appType": "APP",
+    "name": "tracker-app",
+    "version": "0.1.0",
+    "description": "tracker-app",
+    "icons": {
+        "48": "icon.png"
+    },
+    "developer": {
+        "name": "Barnabas Makonda",
+        "email": "barnabasmakonda@hisptanzania.org"
+    },
+    "launch_url": "index.html",
+    "manifest_generated_at": "Sun Feb 17 2019 09:30:24 GMT+0300 (East Africa Time)"
+}
